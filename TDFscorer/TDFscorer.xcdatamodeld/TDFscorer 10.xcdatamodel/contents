@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="8195" systemVersion="15A284" minimumToolsVersion="Automatic">
+    <entity name="Competition" representedClassName="Competition" syncable="YES">
+        <attribute name="compType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isHighHCtoZero" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isOneOnOne" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isTeamComp" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <relationship name="appliesToRound" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Round" inverseName="hasComp" inverseEntity="Round" syncable="YES"/>
+    </entity>
+    <entity name="Course" representedClassName="Course" parentEntity="CourseBase" syncable="YES">
+        <relationship name="usedInRound" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Round" inverseName="isOfCourse" inverseEntity="Round" syncable="YES"/>
+    </entity>
+    <entity name="CourseBase" representedClassName="CourseBase" syncable="YES">
+        <attribute name="country" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="courseName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="picture" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="province" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="consistOf" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Hole" inverseName="partOfCourse" inverseEntity="Hole" syncable="YES"/>
+    </entity>
+    <entity name="Friend" representedClassName="Friend" syncable="YES">
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="friendName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="handicap" optional="YES" attributeType="Integer 16" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="photo" optional="YES" attributeType="Binary" syncable="YES"/>
+    </entity>
+    <entity name="Group" representedClassName="Group" syncable="YES">
+        <attribute name="groupid" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="holeInd" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="hasPlayers" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="PlayerInGroup" inverseName="playsInGroup" inverseEntity="PlayerInGroup" syncable="YES"/>
+        <relationship name="isOfRound" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Round" inverseName="hasGroups" inverseEntity="Round" syncable="YES"/>
+    </entity>
+    <entity name="Hole" representedClassName="Hole" syncable="YES">
+        <attribute name="holeNumber" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="par" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="result" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="score" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="stroke" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="teamScore" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="partOfCourse" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CourseBase" inverseName="consistOf" inverseEntity="CourseBase" syncable="YES"/>
+    </entity>
+    <entity name="PlayerInGroup" representedClassName="PlayerInGroup" parentEntity="PlayerInTourney" syncable="YES">
+        <attribute name="index" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="opponent" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="teamPoints" optional="YES" attributeType="Float" defaultValueString="0" syncable="YES"/>
+        <relationship name="hasScoreCard" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="Scorecard" inverseName="containsPlayer" inverseEntity="Scorecard" syncable="YES"/>
+        <relationship name="playsInGroup" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Group" inverseName="hasPlayers" inverseEntity="Group" syncable="YES"/>
+    </entity>
+    <entity name="PlayerInTourney" representedClassName="PlayerInTourney" parentEntity="Friend" syncable="YES">
+        <attribute name="adjustedHC" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="team" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="totalPoints" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="totalScore" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="playsInTourney" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Tournament" inverseName="hasPlayers" inverseEntity="Tournament" syncable="YES"/>
+    </entity>
+    <entity name="Round" representedClassName="Round" syncable="YES">
+        <attribute name="number" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="numHolesCompleted" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="status" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="teeTime" optional="YES" attributeType="Date" syncable="YES"/>
+        <relationship name="hasComp" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Competition" inverseName="appliesToRound" inverseEntity="Competition" syncable="YES"/>
+        <relationship name="hasGroups" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Group" inverseName="isOfRound" inverseEntity="Group" syncable="YES"/>
+        <relationship name="isOfCourse" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="Course" inverseName="usedInRound" inverseEntity="Course" syncable="YES"/>
+        <relationship name="isPlayedInTourney" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Tournament" inverseName="hasRounds" inverseEntity="Tournament" syncable="YES"/>
+    </entity>
+    <entity name="Scorecard" representedClassName="Scorecard" parentEntity="Course" syncable="YES">
+        <attribute name="holeInd" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="containsPlayer" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="PlayerInGroup" inverseName="hasScoreCard" inverseEntity="PlayerInGroup" syncable="YES"/>
+    </entity>
+    <entity name="ScoreHistory" syncable="YES">
+        <attribute name="courseName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="courseRating" optional="YES" attributeType="Decimal" defaultValueString="0" syncable="YES"/>
+        <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="score" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="Self" representedClassName="Self" parentEntity="Friend" syncable="YES">
+        <attribute name="favTournament" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="numberOfTourneys" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="rankingPoints" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="Team" representedClassName="Team" syncable="YES">
+        <attribute name="teamImage" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="teamName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="totalPoints" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="isOfTournament" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Tournament" inverseName="hasTeams" inverseEntity="Tournament" syncable="YES"/>
+    </entity>
+    <entity name="Tournament" representedClassName="Tournament" syncable="YES">
+        <attribute name="admin" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="creation_date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="gDriveFileID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="icon" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="id_of_Tournament" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="internetPlay" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="location" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="scoringType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="status" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tournamentName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="year" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="hasPlayers" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="PlayerInTourney" inverseName="playsInTourney" inverseEntity="PlayerInTourney" syncable="YES"/>
+        <relationship name="hasRounds" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Round" inverseName="isPlayedInTourney" inverseEntity="Round" syncable="YES"/>
+        <relationship name="hasTeams" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Team" inverseName="isOfTournament" inverseEntity="Team" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Competition" positionX="18" positionY="63" width="128" height="120"/>
+        <element name="Course" positionX="36" positionY="81" width="128" height="60"/>
+        <element name="CourseBase" positionX="-9" positionY="99" width="128" height="120"/>
+        <element name="Friend" positionX="-54" positionY="-9" width="128" height="105"/>
+        <element name="Group" positionX="36" positionY="81" width="128" height="105"/>
+        <element name="Hole" positionX="45" positionY="90" width="128" height="150"/>
+        <element name="PlayerInGroup" positionX="-63" positionY="-18" width="128" height="120"/>
+        <element name="PlayerInTourney" positionX="-9" positionY="36" width="128" height="120"/>
+        <element name="Round" positionX="-36" positionY="9" width="128" height="165"/>
+        <element name="Scorecard" positionX="0" positionY="45" width="128" height="90"/>
+        <element name="Self" positionX="27" positionY="72" width="128" height="90"/>
+        <element name="Team" positionX="18" positionY="63" width="128" height="105"/>
+        <element name="Tournament" positionX="-18" positionY="27" width="128" height="255"/>
+        <element name="ScoreHistory" positionX="-9" positionY="117" width="128" height="105"/>
+    </elements>
+</model>

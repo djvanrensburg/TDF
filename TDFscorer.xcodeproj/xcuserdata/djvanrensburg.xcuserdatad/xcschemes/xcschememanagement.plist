@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>TDFscorer Lite.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
+		<key>TDFscorer.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>67D736751B6CA29300F8242B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>67D736911B6CA29400F8242B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>67FF282B1B962A900005BDBD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>67FF28461B962A910005BDBD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>67FF28571B962D9A0005BDBD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

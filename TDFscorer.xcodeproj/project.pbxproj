@@ -1,0 +1,1161 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		67131DF21BB5C2540082DD8B /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 67131DF11BB5C2540082DD8B /* libz.1.2.5.dylib */; };
+		67131DF31BB5CB0F0082DD8B /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 67131DF11BB5C2540082DD8B /* libz.1.2.5.dylib */; };
+		67131DF61BB697170082DD8B /* GDriveFilesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67131DF51BB697170082DD8B /* GDriveFilesViewController.m */; };
+		67131DF71BB6BA940082DD8B /* GDriveFilesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67131DF51BB697170082DD8B /* GDriveFilesViewController.m */; };
+		67138D251B727B2300AB6985 /* SpectatorSelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67138D241B727B2300AB6985 /* SpectatorSelViewController.m */; };
+		6713CB981B7698D200971B80 /* Course.m in Sources */ = {isa = PBXBuildFile; fileRef = 6713CB971B7698D200971B80 /* Course.m */; };
+		6713CB9B1B7698D300971B80 /* CourseBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 6713CB9A1B7698D300971B80 /* CourseBase.m */; };
+		67140E7D1BA20D65000743C3 /* Tournament.m in Sources */ = {isa = PBXBuildFile; fileRef = 67140E7C1BA20D65000743C3 /* Tournament.m */; };
+		67140E861BA21E11000743C3 /* Round.m in Sources */ = {isa = PBXBuildFile; fileRef = 67140E851BA21E11000743C3 /* Round.m */; };
+		67140E881BA5EB41000743C3 /* Tournament.m in Sources */ = {isa = PBXBuildFile; fileRef = 67140E7C1BA20D65000743C3 /* Tournament.m */; };
+		67140E891BA5EE3E000743C3 /* Round.m in Sources */ = {isa = PBXBuildFile; fileRef = 67140E851BA21E11000743C3 /* Round.m */; };
+		67140E901BAB6BD8000743C3 /* ScrollContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 67140E8F1BAB6BD8000743C3 /* ScrollContentView.m */; };
+		67140E941BAD523A000743C3 /* PlayerInTourney.m in Sources */ = {isa = PBXBuildFile; fileRef = 67140E931BAD523A000743C3 /* PlayerInTourney.m */; };
+		67140E971BAD523B000743C3 /* Team.m in Sources */ = {isa = PBXBuildFile; fileRef = 67140E961BAD523B000743C3 /* Team.m */; };
+		67140E981BAD7F1A000743C3 /* ScrollContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 67140E8F1BAB6BD8000743C3 /* ScrollContentView.m */; };
+		67140E991BAD7F32000743C3 /* PlayerInTourney.m in Sources */ = {isa = PBXBuildFile; fileRef = 67140E931BAD523A000743C3 /* PlayerInTourney.m */; };
+		672098F91B8E1329006FE1A3 /* libGTLTouchStaticLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 672098F41B8E1275006FE1A3 /* libGTLTouchStaticLib.a */; };
+		67218B6A1B7BCC44009BBB0E /* NavOverrideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67218B691B7BCC44009BBB0E /* NavOverrideViewController.m */; };
+		67D7367C1B6CA29300F8242B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D7367B1B6CA29300F8242B /* main.m */; };
+		67D736821B6CA29300F8242B /* TDFscorer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 67D736801B6CA29300F8242B /* TDFscorer.xcdatamodeld */; };
+		67D7368A1B6CA29300F8242B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67D736891B6CA29300F8242B /* Images.xcassets */; };
+		67D7368D1B6CA29300F8242B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67D7368B1B6CA29300F8242B /* LaunchScreen.xib */; };
+		67D736991B6CA29400F8242B /* TDFscorerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D736981B6CA29400F8242B /* TDFscorerTests.m */; };
+		67D736B31B6CA30500F8242B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67D736B21B6CA30500F8242B /* Security.framework */; };
+		67D736B51B6CA30E00F8242B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67D736B41B6CA30E00F8242B /* SystemConfiguration.framework */; };
+		67D736B71B6CA31300F8242B /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67D736B61B6CA31300F8242B /* CoreData.framework */; };
+		67D736B91B6CA31900F8242B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67D736B81B6CA31900F8242B /* MapKit.framework */; };
+		67D736BB1B6CA34F00F8242B /* GTMOAuth2ViewTouch.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67D736BA1B6CA34F00F8242B /* GTMOAuth2ViewTouch.xib */; };
+		67D736BE1B6CA36900F8242B /* GTLDrive_Sources.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D736BC1B6CA36900F8242B /* GTLDrive_Sources.m */; };
+		67D736C21B6CA4B100F8242B /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D736C11B6CA4B100F8242B /* Constants.m */; };
+		67D736C51B6CA50B00F8242B /* UIObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D736C41B6CA50B00F8242B /* UIObjects.m */; };
+		67D736CB1B6CAC8300F8242B /* TourneyList.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D736C81B6CAC8300F8242B /* TourneyList.m */; };
+		67D736E31B6CACAD00F8242B /* Competition.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D736CE1B6CACAD00F8242B /* Competition.m */; };
+		67D736E51B6CACAD00F8242B /* Friend.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D736D21B6CACAD00F8242B /* Friend.m */; };
+		67D736E71B6CACAD00F8242B /* Hole.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D736D61B6CACAD00F8242B /* Hole.m */; };
+		67D736E91B6CACAD00F8242B /* Scorecard.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D736DA1B6CACAD00F8242B /* Scorecard.m */; };
+		67D736EA1B6CACAD00F8242B /* Self.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D736DC1B6CACAD00F8242B /* Self.m */; };
+		67D736F01B6CACDA00F8242B /* NSManagedObject+Serialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D736EF1B6CACDA00F8242B /* NSManagedObject+Serialization.m */; };
+		67D736F61B6CAD1100F8242B /* ParUITextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D736F31B6CAD1100F8242B /* ParUITextField.m */; };
+		67D736F71B6CAD1100F8242B /* PlayerUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D736F51B6CAD1100F8242B /* PlayerUIView.m */; };
+		67D737001B6CAD7500F8242B /* AddTourneyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D736FF1B6CAD7500F8242B /* AddTourneyViewController.m */; };
+		67D737031B6CAD9400F8242B /* TourneyInstanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D737021B6CAD9400F8242B /* TourneyInstanceViewController.m */; };
+		67D737061B6CADA300F8242B /* TeamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D737051B6CADA300F8242B /* TeamViewController.m */; };
+		67D737091B6CADB300F8242B /* CoreDataUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D737081B6CADB300F8242B /* CoreDataUtil.m */; };
+		67D7370C1B6CADE700F8242B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D7370B1B6CADE700F8242B /* AppDelegate.m */; };
+		67D7370F1B6CAE0D00F8242B /* RoundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D7370E1B6CAE0D00F8242B /* RoundViewController.m */; };
+		67D737121B6CAE1B00F8242B /* PlayerTeamSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D737111B6CAE1B00F8242B /* PlayerTeamSelectViewController.m */; };
+		67D737151B6CAE2800F8242B /* AssembleRoundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D737141B6CAE2800F8242B /* AssembleRoundViewController.m */; };
+		67D737181B6CAE5B00F8242B /* GroupUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D737171B6CAE5B00F8242B /* GroupUIView.m */; };
+		67D7371B1B6CAE7200F8242B /* CompViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D7371A1B6CAE7200F8242B /* CompViewController.m */; };
+		67D7371F1B6CAEAE00F8242B /* CourseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D7371E1B6CAEAE00F8242B /* CourseViewController.m */; };
+		67D737221B6CAF0F00F8242B /* StrokeUITextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D737211B6CAF0E00F8242B /* StrokeUITextField.m */; };
+		67D737271B6CB02C00F8242B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67D737251B6CB02C00F8242B /* Main.storyboard */; };
+		67D7372A1B6CC24900F8242B /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D737291B6CC24900F8242B /* MainViewController.m */; };
+		67D7372D1B6CC33300F8242B /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D7372C1B6CC33300F8242B /* ProfileViewController.m */; };
+		67D737301B6CC34A00F8242B /* LeaderboardTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D7372F1B6CC34A00F8242B /* LeaderboardTableViewController.m */; };
+		67D737331B6CC35900F8242B /* OpenTourneysTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D737321B6CC35900F8242B /* OpenTourneysTableViewController.m */; };
+		67D737361B6CC36500F8242B /* PlayerPopupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D737351B6CC36500F8242B /* PlayerPopupViewController.m */; };
+		67D737391B6CC3A300F8242B /* TeamLeaderboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D737381B6CC3A300F8242B /* TeamLeaderboardViewController.m */; };
+		67D7373C1B6CC3C200F8242B /* RoundsInPlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D7373B1B6CC3C200F8242B /* RoundsInPlayViewController.m */; };
+		67D737411B6CC3EB00F8242B /* ScorecardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D7373E1B6CC3EB00F8242B /* ScorecardViewController.m */; };
+		67D737421B6CC3EB00F8242B /* ScoringViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D737401B6CC3EB00F8242B /* ScoringViewController.m */; };
+		67D737451B6CC41800F8242B /* ScoringUISlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D737441B6CC41800F8242B /* ScoringUISlider.m */; };
+		67D737481B6CC44700F8242B /* FriendTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D737471B6CC44700F8242B /* FriendTableViewController.m */; };
+		67D7374B1B6CC46D00F8242B /* AddFriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D7374A1B6CC46D00F8242B /* AddFriendViewController.m */; };
+		67D7374E1B6CC4AA00F8242B /* CoursesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D7374D1B6CC4AA00F8242B /* CoursesTableViewController.m */; };
+		67D737511B6CC4B500F8242B /* CourseMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D737501B6CC4B500F8242B /* CourseMapViewController.m */; };
+		67D737531B6CFB9C00F8242B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67D737521B6CFB9C00F8242B /* CoreLocation.framework */; };
+		67D737741B72270F00F8242B /* GDriveUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D737731B72270F00F8242B /* GDriveUtils.m */; };
+		67E2F71E1BB46A0400E0EDDC /* Group.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E2F71D1BB46A0400E0EDDC /* Group.m */; };
+		67E2F7211BB46A0400E0EDDC /* PlayerInGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E2F7201BB46A0400E0EDDC /* PlayerInGroup.m */; };
+		67FF285A1B962D9A0005BDBD /* GTLDrive_Sources.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D736BC1B6CA36900F8242B /* GTLDrive_Sources.m */; };
+		67FF285B1B962D9A0005BDBD /* LeaderboardTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D7372F1B6CC34A00F8242B /* LeaderboardTableViewController.m */; };
+		67FF285D1B962D9A0005BDBD /* ScorecardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D7373E1B6CC3EB00F8242B /* ScorecardViewController.m */; };
+		67FF285E1B962D9A0005BDBD /* CompViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D7371A1B6CAE7200F8242B /* CompViewController.m */; };
+		67FF28601B962D9A0005BDBD /* SpectatorSelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67138D241B727B2300AB6985 /* SpectatorSelViewController.m */; };
+		67FF28611B962D9A0005BDBD /* CourseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D7371E1B6CAEAE00F8242B /* CourseViewController.m */; };
+		67FF28621B962D9A0005BDBD /* Friend.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D736D21B6CACAD00F8242B /* Friend.m */; };
+		67FF28631B962D9A0005BDBD /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D7372C1B6CC33300F8242B /* ProfileViewController.m */; };
+		67FF28641B962D9A0005BDBD /* CoreDataUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D737081B6CADB300F8242B /* CoreDataUtil.m */; };
+		67FF28661B962D9A0005BDBD /* NSManagedObject+Serialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D736EF1B6CACDA00F8242B /* NSManagedObject+Serialization.m */; };
+		67FF28681B962D9A0005BDBD /* GDriveUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D737731B72270F00F8242B /* GDriveUtils.m */; };
+		67FF28691B962D9A0005BDBD /* PlayerTeamSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D737111B6CAE1B00F8242B /* PlayerTeamSelectViewController.m */; };
+		67FF286A1B962D9A0005BDBD /* TourneyList.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D736C81B6CAC8300F8242B /* TourneyList.m */; };
+		67FF286C1B962D9A0005BDBD /* OpenTourneysTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D737321B6CC35900F8242B /* OpenTourneysTableViewController.m */; };
+		67FF286D1B962D9A0005BDBD /* CoursesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D7374D1B6CC4AA00F8242B /* CoursesTableViewController.m */; };
+		67FF286E1B962D9A0005BDBD /* RoundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D7370E1B6CAE0D00F8242B /* RoundViewController.m */; };
+		67FF286F1B962D9A0005BDBD /* ParUITextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D736F31B6CAD1100F8242B /* ParUITextField.m */; };
+		67FF28701B962D9A0005BDBD /* GroupUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D737171B6CAE5B00F8242B /* GroupUIView.m */; };
+		67FF28711B962D9A0005BDBD /* TeamLeaderboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D737381B6CC3A300F8242B /* TeamLeaderboardViewController.m */; };
+		67FF28721B962D9A0005BDBD /* TDFscorer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 67D736801B6CA29300F8242B /* TDFscorer.xcdatamodeld */; };
+		67FF28731B962D9A0005BDBD /* AssembleRoundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D737141B6CAE2800F8242B /* AssembleRoundViewController.m */; };
+		67FF28741B962D9A0005BDBD /* UIObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D736C41B6CA50B00F8242B /* UIObjects.m */; };
+		67FF28751B962D9A0005BDBD /* Competition.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D736CE1B6CACAD00F8242B /* Competition.m */; };
+		67FF28771B962D9A0005BDBD /* CourseMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D737501B6CC4B500F8242B /* CourseMapViewController.m */; };
+		67FF28781B962D9A0005BDBD /* TourneyInstanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D737021B6CAD9400F8242B /* TourneyInstanceViewController.m */; };
+		67FF28791B962D9A0005BDBD /* Self.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D736DC1B6CACAD00F8242B /* Self.m */; };
+		67FF287A1B962D9A0005BDBD /* RoundsInPlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D7373B1B6CC3C200F8242B /* RoundsInPlayViewController.m */; };
+		67FF287B1B962D9A0005BDBD /* ScoringViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D737401B6CC3EB00F8242B /* ScoringViewController.m */; };
+		67FF287C1B962D9A0005BDBD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D7367B1B6CA29300F8242B /* main.m */; };
+		67FF287D1B962D9A0005BDBD /* TeamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D737051B6CADA300F8242B /* TeamViewController.m */; };
+		67FF287E1B962D9A0005BDBD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D7370B1B6CADE700F8242B /* AppDelegate.m */; };
+		67FF287F1B962D9A0005BDBD /* PlayerPopupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D737351B6CC36500F8242B /* PlayerPopupViewController.m */; };
+		67FF28801B962D9A0005BDBD /* Course.m in Sources */ = {isa = PBXBuildFile; fileRef = 6713CB971B7698D200971B80 /* Course.m */; };
+		67FF28811B962D9A0005BDBD /* StrokeUITextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D737211B6CAF0E00F8242B /* StrokeUITextField.m */; };
+		67FF28821B962D9A0005BDBD /* AddTourneyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D736FF1B6CAD7500F8242B /* AddTourneyViewController.m */; };
+		67FF28831B962D9A0005BDBD /* Scorecard.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D736DA1B6CACAD00F8242B /* Scorecard.m */; };
+		67FF28851B962D9A0005BDBD /* FriendTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D737471B6CC44700F8242B /* FriendTableViewController.m */; };
+		67FF28861B962D9A0005BDBD /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D737291B6CC24900F8242B /* MainViewController.m */; };
+		67FF28871B962D9A0005BDBD /* ScoringUISlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D737441B6CC41800F8242B /* ScoringUISlider.m */; };
+		67FF28881B962D9A0005BDBD /* CourseBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 6713CB9A1B7698D300971B80 /* CourseBase.m */; };
+		67FF28891B962D9A0005BDBD /* NavOverrideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67218B691B7BCC44009BBB0E /* NavOverrideViewController.m */; };
+		67FF288A1B962D9A0005BDBD /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D736C11B6CA4B100F8242B /* Constants.m */; };
+		67FF288B1B962D9A0005BDBD /* Hole.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D736D61B6CACAD00F8242B /* Hole.m */; };
+		67FF288C1B962D9A0005BDBD /* PlayerUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D736F51B6CAD1100F8242B /* PlayerUIView.m */; };
+		67FF288D1B962D9A0005BDBD /* AddFriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D7374A1B6CC46D00F8242B /* AddFriendViewController.m */; };
+		67FF288F1B962D9A0005BDBD /* libGTLTouchStaticLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 672098F41B8E1275006FE1A3 /* libGTLTouchStaticLib.a */; };
+		67FF28901B962D9A0005BDBD /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67D737521B6CFB9C00F8242B /* CoreLocation.framework */; };
+		67FF28911B962D9A0005BDBD /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67D736B81B6CA31900F8242B /* MapKit.framework */; };
+		67FF28921B962D9A0005BDBD /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67D736B61B6CA31300F8242B /* CoreData.framework */; };
+		67FF28931B962D9A0005BDBD /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67D736B41B6CA30E00F8242B /* SystemConfiguration.framework */; };
+		67FF28941B962D9A0005BDBD /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67D736B21B6CA30500F8242B /* Security.framework */; };
+		67FF28961B962D9A0005BDBD /* GTMOAuth2ViewTouch.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67D736BA1B6CA34F00F8242B /* GTMOAuth2ViewTouch.xib */; };
+		67FF28971B962D9A0005BDBD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67D7368B1B6CA29300F8242B /* LaunchScreen.xib */; };
+		67FF28981B962D9A0005BDBD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67D736891B6CA29300F8242B /* Images.xcassets */; };
+		67FF28991B962D9A0005BDBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67D737251B6CB02C00F8242B /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		672098F11B8E1275006FE1A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 672098EA1B8E1274006FE1A3 /* GTL.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4F38F6A60B66E91D00B24B81;
+			remoteInfo = GTLFramework;
+		};
+		672098F31B8E1275006FE1A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 672098EA1B8E1274006FE1A3 /* GTL.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4F12027C11A4CA2F00BEB470;
+			remoteInfo = GTLTouchStaticLib;
+		};
+		672098F51B8E1275006FE1A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 672098EA1B8E1274006FE1A3 /* GTL.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4F12027D11A4CA2F00BEB470;
+			remoteInfo = GTLUnitTests;
+		};
+		672098F71B8E1275006FE1A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 672098EA1B8E1274006FE1A3 /* GTL.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4F1AD9020B71603F00DC0485;
+			remoteInfo = DevelopmentTestTool;
+		};
+		67D736931B6CA29400F8242B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67D7366E1B6CA29300F8242B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67D736751B6CA29300F8242B;
+			remoteInfo = TDFscorer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		67131DF11BB5C2540082DD8B /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
+		67131DF41BB697170082DD8B /* GDriveFilesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDriveFilesViewController.h; sourceTree = "<group>"; };
+		67131DF51BB697170082DD8B /* GDriveFilesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDriveFilesViewController.m; sourceTree = "<group>"; };
+		67138D231B727B2300AB6985 /* SpectatorSelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpectatorSelViewController.h; sourceTree = "<group>"; };
+		67138D241B727B2300AB6985 /* SpectatorSelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpectatorSelViewController.m; sourceTree = "<group>"; };
+		6713CB921B73DC7A00971B80 /* GdriveAlertInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GdriveAlertInterface.h; sourceTree = "<group>"; };
+		6713CB951B7698A800971B80 /* TDFscorer 5.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "TDFscorer 5.xcdatamodel"; sourceTree = "<group>"; };
+		6713CB961B7698D200971B80 /* Course.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Course.h; sourceTree = "<group>"; };
+		6713CB971B7698D200971B80 /* Course.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Course.m; sourceTree = "<group>"; };
+		6713CB991B7698D300971B80 /* CourseBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CourseBase.h; sourceTree = "<group>"; };
+		6713CB9A1B7698D300971B80 /* CourseBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CourseBase.m; sourceTree = "<group>"; };
+		67140E7A1BA20ACC000743C3 /* TDFscorer 8.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "TDFscorer 8.xcdatamodel"; sourceTree = "<group>"; };
+		67140E7B1BA20D65000743C3 /* Tournament.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tournament.h; sourceTree = "<group>"; };
+		67140E7C1BA20D65000743C3 /* Tournament.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tournament.m; sourceTree = "<group>"; };
+		67140E841BA21E11000743C3 /* Round.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Round.h; sourceTree = "<group>"; };
+		67140E851BA21E11000743C3 /* Round.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Round.m; sourceTree = "<group>"; };
+		67140E8E1BAB6BD8000743C3 /* ScrollContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollContentView.h; sourceTree = "<group>"; };
+		67140E8F1BAB6BD8000743C3 /* ScrollContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollContentView.m; sourceTree = "<group>"; };
+		67140E911BAD51EF000743C3 /* TDFscorer 9.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "TDFscorer 9.xcdatamodel"; sourceTree = "<group>"; };
+		67140E921BAD523A000743C3 /* PlayerInTourney.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerInTourney.h; sourceTree = "<group>"; };
+		67140E931BAD523A000743C3 /* PlayerInTourney.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerInTourney.m; sourceTree = "<group>"; };
+		67140E951BAD523B000743C3 /* Team.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Team.h; sourceTree = "<group>"; };
+		67140E961BAD523B000743C3 /* Team.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Team.m; sourceTree = "<group>"; };
+		672098EA1B8E1274006FE1A3 /* GTL.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GTL.xcodeproj; path = "../google-api-objectivec-client-read-only/Source/GTL.xcodeproj"; sourceTree = "<group>"; };
+		672098FA1B918E4F006FE1A3 /* TDFscorer 6.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "TDFscorer 6.xcdatamodel"; sourceTree = "<group>"; };
+		672098FB1B931DD5006FE1A3 /* TDFscorer 7.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "TDFscorer 7.xcdatamodel"; sourceTree = "<group>"; };
+		67218B681B7BCC44009BBB0E /* NavOverrideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavOverrideViewController.h; sourceTree = "<group>"; };
+		67218B691B7BCC44009BBB0E /* NavOverrideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavOverrideViewController.m; sourceTree = "<group>"; };
+		67D736761B6CA29300F8242B /* TDFscorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TDFscorer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		67D7367A1B6CA29300F8242B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67D7367B1B6CA29300F8242B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		67D736811B6CA29300F8242B /* TDFscorer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TDFscorer.xcdatamodel; sourceTree = "<group>"; };
+		67D736891B6CA29300F8242B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		67D7368C1B6CA29300F8242B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		67D736921B6CA29400F8242B /* TDFscorerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDFscorerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67D736971B6CA29400F8242B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67D736981B6CA29400F8242B /* TDFscorerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDFscorerTests.m; sourceTree = "<group>"; };
+		67D736B21B6CA30500F8242B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		67D736B41B6CA30E00F8242B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		67D736B61B6CA31300F8242B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		67D736B81B6CA31900F8242B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		67D736BA1B6CA34F00F8242B /* GTMOAuth2ViewTouch.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GTMOAuth2ViewTouch.xib; sourceTree = "<group>"; };
+		67D736BC1B6CA36900F8242B /* GTLDrive_Sources.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLDrive_Sources.m; sourceTree = "<group>"; };
+		67D736BD1B6CA36900F8242B /* GTLDrive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLDrive.h; sourceTree = "<group>"; };
+		67D736C01B6CA4B100F8242B /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		67D736C11B6CA4B100F8242B /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		67D736C31B6CA50B00F8242B /* UIObjects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIObjects.h; sourceTree = "<group>"; };
+		67D736C41B6CA50B00F8242B /* UIObjects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIObjects.m; sourceTree = "<group>"; };
+		67D736C71B6CAC8300F8242B /* TourneyList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TourneyList.h; sourceTree = "<group>"; };
+		67D736C81B6CAC8300F8242B /* TourneyList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TourneyList.m; sourceTree = "<group>"; };
+		67D736CD1B6CACAD00F8242B /* Competition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Competition.h; sourceTree = "<group>"; };
+		67D736CE1B6CACAD00F8242B /* Competition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Competition.m; sourceTree = "<group>"; };
+		67D736D11B6CACAD00F8242B /* Friend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Friend.h; sourceTree = "<group>"; };
+		67D736D21B6CACAD00F8242B /* Friend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Friend.m; sourceTree = "<group>"; };
+		67D736D51B6CACAD00F8242B /* Hole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hole.h; sourceTree = "<group>"; };
+		67D736D61B6CACAD00F8242B /* Hole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hole.m; sourceTree = "<group>"; };
+		67D736D91B6CACAD00F8242B /* Scorecard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scorecard.h; sourceTree = "<group>"; };
+		67D736DA1B6CACAD00F8242B /* Scorecard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Scorecard.m; sourceTree = "<group>"; };
+		67D736DB1B6CACAD00F8242B /* Self.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Self.h; sourceTree = "<group>"; };
+		67D736DC1B6CACAD00F8242B /* Self.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Self.m; sourceTree = "<group>"; };
+		67D736EE1B6CACDA00F8242B /* NSManagedObject+Serialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObject+Serialization.h"; sourceTree = "<group>"; };
+		67D736EF1B6CACDA00F8242B /* NSManagedObject+Serialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObject+Serialization.m"; sourceTree = "<group>"; };
+		67D736F21B6CAD1100F8242B /* ParUITextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParUITextField.h; sourceTree = "<group>"; };
+		67D736F31B6CAD1100F8242B /* ParUITextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParUITextField.m; sourceTree = "<group>"; };
+		67D736F41B6CAD1100F8242B /* PlayerUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerUIView.h; sourceTree = "<group>"; };
+		67D736F51B6CAD1100F8242B /* PlayerUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerUIView.m; sourceTree = "<group>"; };
+		67D736FE1B6CAD7500F8242B /* AddTourneyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddTourneyViewController.h; sourceTree = "<group>"; };
+		67D736FF1B6CAD7500F8242B /* AddTourneyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddTourneyViewController.m; sourceTree = "<group>"; };
+		67D737011B6CAD9400F8242B /* TourneyInstanceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TourneyInstanceViewController.h; sourceTree = "<group>"; };
+		67D737021B6CAD9400F8242B /* TourneyInstanceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TourneyInstanceViewController.m; sourceTree = "<group>"; };
+		67D737041B6CADA300F8242B /* TeamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamViewController.h; sourceTree = "<group>"; };
+		67D737051B6CADA300F8242B /* TeamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamViewController.m; sourceTree = "<group>"; };
+		67D737071B6CADB300F8242B /* CoreDataUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataUtil.h; sourceTree = "<group>"; };
+		67D737081B6CADB300F8242B /* CoreDataUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataUtil.m; sourceTree = "<group>"; };
+		67D7370A1B6CADE700F8242B /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		67D7370B1B6CADE700F8242B /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		67D7370D1B6CAE0D00F8242B /* RoundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundViewController.h; sourceTree = "<group>"; };
+		67D7370E1B6CAE0D00F8242B /* RoundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundViewController.m; sourceTree = "<group>"; };
+		67D737101B6CAE1B00F8242B /* PlayerTeamSelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerTeamSelectViewController.h; sourceTree = "<group>"; };
+		67D737111B6CAE1B00F8242B /* PlayerTeamSelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerTeamSelectViewController.m; sourceTree = "<group>"; };
+		67D737131B6CAE2800F8242B /* AssembleRoundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssembleRoundViewController.h; sourceTree = "<group>"; };
+		67D737141B6CAE2800F8242B /* AssembleRoundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssembleRoundViewController.m; sourceTree = "<group>"; };
+		67D737161B6CAE5B00F8242B /* GroupUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupUIView.h; sourceTree = "<group>"; };
+		67D737171B6CAE5B00F8242B /* GroupUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupUIView.m; sourceTree = "<group>"; };
+		67D737191B6CAE7200F8242B /* CompViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompViewController.h; sourceTree = "<group>"; };
+		67D7371A1B6CAE7200F8242B /* CompViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompViewController.m; sourceTree = "<group>"; };
+		67D7371D1B6CAEAE00F8242B /* CourseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CourseViewController.h; sourceTree = "<group>"; };
+		67D7371E1B6CAEAE00F8242B /* CourseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CourseViewController.m; sourceTree = "<group>"; };
+		67D737201B6CAF0E00F8242B /* StrokeUITextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StrokeUITextField.h; sourceTree = "<group>"; };
+		67D737211B6CAF0E00F8242B /* StrokeUITextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StrokeUITextField.m; sourceTree = "<group>"; };
+		67D737261B6CB02C00F8242B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		67D737281B6CC24900F8242B /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		67D737291B6CC24900F8242B /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		67D7372B1B6CC33300F8242B /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		67D7372C1B6CC33300F8242B /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		67D7372E1B6CC34A00F8242B /* LeaderboardTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeaderboardTableViewController.h; sourceTree = "<group>"; };
+		67D7372F1B6CC34A00F8242B /* LeaderboardTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeaderboardTableViewController.m; sourceTree = "<group>"; };
+		67D737311B6CC35900F8242B /* OpenTourneysTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenTourneysTableViewController.h; sourceTree = "<group>"; };
+		67D737321B6CC35900F8242B /* OpenTourneysTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenTourneysTableViewController.m; sourceTree = "<group>"; };
+		67D737341B6CC36500F8242B /* PlayerPopupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerPopupViewController.h; sourceTree = "<group>"; };
+		67D737351B6CC36500F8242B /* PlayerPopupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerPopupViewController.m; sourceTree = "<group>"; };
+		67D737371B6CC3A300F8242B /* TeamLeaderboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamLeaderboardViewController.h; sourceTree = "<group>"; };
+		67D737381B6CC3A300F8242B /* TeamLeaderboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamLeaderboardViewController.m; sourceTree = "<group>"; };
+		67D7373A1B6CC3C200F8242B /* RoundsInPlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundsInPlayViewController.h; sourceTree = "<group>"; };
+		67D7373B1B6CC3C200F8242B /* RoundsInPlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundsInPlayViewController.m; sourceTree = "<group>"; };
+		67D7373D1B6CC3EB00F8242B /* ScorecardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScorecardViewController.h; sourceTree = "<group>"; };
+		67D7373E1B6CC3EB00F8242B /* ScorecardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScorecardViewController.m; sourceTree = "<group>"; };
+		67D7373F1B6CC3EB00F8242B /* ScoringViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoringViewController.h; sourceTree = "<group>"; };
+		67D737401B6CC3EB00F8242B /* ScoringViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoringViewController.m; sourceTree = "<group>"; };
+		67D737431B6CC41800F8242B /* ScoringUISlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoringUISlider.h; sourceTree = "<group>"; };
+		67D737441B6CC41800F8242B /* ScoringUISlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoringUISlider.m; sourceTree = "<group>"; };
+		67D737461B6CC44700F8242B /* FriendTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendTableViewController.h; sourceTree = "<group>"; };
+		67D737471B6CC44700F8242B /* FriendTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendTableViewController.m; sourceTree = "<group>"; };
+		67D737491B6CC46D00F8242B /* AddFriendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddFriendViewController.h; sourceTree = "<group>"; };
+		67D7374A1B6CC46D00F8242B /* AddFriendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddFriendViewController.m; sourceTree = "<group>"; };
+		67D7374C1B6CC4AA00F8242B /* CoursesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoursesTableViewController.h; sourceTree = "<group>"; };
+		67D7374D1B6CC4AA00F8242B /* CoursesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoursesTableViewController.m; sourceTree = "<group>"; };
+		67D7374F1B6CC4B500F8242B /* CourseMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CourseMapViewController.h; sourceTree = "<group>"; };
+		67D737501B6CC4B500F8242B /* CourseMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CourseMapViewController.m; sourceTree = "<group>"; };
+		67D737521B6CFB9C00F8242B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		67D737541B715C0D00F8242B /* TDFscorer 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "TDFscorer 2.xcdatamodel"; sourceTree = "<group>"; };
+		67D7376A1B72154E00F8242B /* TDFscorer 3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "TDFscorer 3.xcdatamodel"; sourceTree = "<group>"; };
+		67D7376E1B7225DA00F8242B /* TDFscorer 4.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "TDFscorer 4.xcdatamodel"; sourceTree = "<group>"; };
+		67D737721B72270F00F8242B /* GDriveUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDriveUtils.h; sourceTree = "<group>"; };
+		67D737731B72270F00F8242B /* GDriveUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDriveUtils.m; sourceTree = "<group>"; };
+		67E2F70E1BB4683E00E0EDDC /* TDFscorer 10.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "TDFscorer 10.xcdatamodel"; sourceTree = "<group>"; };
+		67E2F71C1BB46A0400E0EDDC /* Group.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Group.h; sourceTree = "<group>"; };
+		67E2F71D1BB46A0400E0EDDC /* Group.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Group.m; sourceTree = "<group>"; };
+		67E2F71F1BB46A0400E0EDDC /* PlayerInGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerInGroup.h; sourceTree = "<group>"; };
+		67E2F7201BB46A0400E0EDDC /* PlayerInGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerInGroup.m; sourceTree = "<group>"; };
+		67FF289D1B962D9A0005BDBD /* TDFscorer Lite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TDFscorer Lite.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67FF289E1B962D9B0005BDBD /* TDFscorer Lite-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "TDFscorer Lite-Info.plist"; path = "/Users/djvanrensburg/TDFscorer/TDFscorer Lite-Info.plist"; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67D736731B6CA29300F8242B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67131DF21BB5C2540082DD8B /* libz.1.2.5.dylib in Frameworks */,
+				672098F91B8E1329006FE1A3 /* libGTLTouchStaticLib.a in Frameworks */,
+				67D737531B6CFB9C00F8242B /* CoreLocation.framework in Frameworks */,
+				67D736B91B6CA31900F8242B /* MapKit.framework in Frameworks */,
+				67D736B71B6CA31300F8242B /* CoreData.framework in Frameworks */,
+				67D736B51B6CA30E00F8242B /* SystemConfiguration.framework in Frameworks */,
+				67D736B31B6CA30500F8242B /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67D7368F1B6CA29400F8242B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67FF288E1B962D9A0005BDBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67131DF31BB5CB0F0082DD8B /* libz.1.2.5.dylib in Frameworks */,
+				67FF288F1B962D9A0005BDBD /* libGTLTouchStaticLib.a in Frameworks */,
+				67FF28901B962D9A0005BDBD /* CoreLocation.framework in Frameworks */,
+				67FF28911B962D9A0005BDBD /* MapKit.framework in Frameworks */,
+				67FF28921B962D9A0005BDBD /* CoreData.framework in Frameworks */,
+				67FF28931B962D9A0005BDBD /* SystemConfiguration.framework in Frameworks */,
+				67FF28941B962D9A0005BDBD /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6713CB8D1B73DC1E00971B80 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				6713CB921B73DC7A00971B80 /* GdriveAlertInterface.h */,
+			);
+			name = Interfaces;
+			sourceTree = "<group>";
+		};
+		672098EB1B8E1274006FE1A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				672098F21B8E1275006FE1A3 /* GTL.framework */,
+				672098F41B8E1275006FE1A3 /* libGTLTouchStaticLib.a */,
+				672098F61B8E1275006FE1A3 /* GTLUnitTests.xctest */,
+				672098F81B8E1275006FE1A3 /* DevelopmentTestTool */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67D7366D1B6CA29300F8242B = {
+			isa = PBXGroup;
+			children = (
+				67131DF11BB5C2540082DD8B /* libz.1.2.5.dylib */,
+				67D737521B6CFB9C00F8242B /* CoreLocation.framework */,
+				67D736B81B6CA31900F8242B /* MapKit.framework */,
+				67D736B61B6CA31300F8242B /* CoreData.framework */,
+				67D736B41B6CA30E00F8242B /* SystemConfiguration.framework */,
+				67D736B21B6CA30500F8242B /* Security.framework */,
+				67D736781B6CA29300F8242B /* TDFscorer */,
+				67D736951B6CA29400F8242B /* TDFscorerTests */,
+				67D736771B6CA29300F8242B /* Products */,
+				672098EA1B8E1274006FE1A3 /* GTL.xcodeproj */,
+				67FF289E1B962D9B0005BDBD /* TDFscorer Lite-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		67D736771B6CA29300F8242B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67D736761B6CA29300F8242B /* TDFscorer.app */,
+				67D736921B6CA29400F8242B /* TDFscorerTests.xctest */,
+				67FF289D1B962D9A0005BDBD /* TDFscorer Lite.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67D736781B6CA29300F8242B /* TDFscorer */ = {
+			isa = PBXGroup;
+			children = (
+				67E2F7221BB5AF9700E0EDDC /* ZipUtil */,
+				6713CB8D1B73DC1E00971B80 /* Interfaces */,
+				67D7371C1B6CAE7700F8242B /* ViewControllers */,
+				67D736F11B6CACE900F8242B /* UIViews */,
+				67D736C61B6CA54A00F8242B /* Core_data */,
+				67D736BF1B6CA48800F8242B /* Utilities */,
+				67D7370A1B6CADE700F8242B /* AppDelegate.h */,
+				67D7370B1B6CADE700F8242B /* AppDelegate.m */,
+				67D736891B6CA29300F8242B /* Images.xcassets */,
+				67D7368B1B6CA29300F8242B /* LaunchScreen.xib */,
+				67D737251B6CB02C00F8242B /* Main.storyboard */,
+				67D736BA1B6CA34F00F8242B /* GTMOAuth2ViewTouch.xib */,
+				67D736BC1B6CA36900F8242B /* GTLDrive_Sources.m */,
+				67D736BD1B6CA36900F8242B /* GTLDrive.h */,
+				67D736801B6CA29300F8242B /* TDFscorer.xcdatamodeld */,
+				67D736791B6CA29300F8242B /* Supporting Files */,
+			);
+			path = TDFscorer;
+			sourceTree = "<group>";
+		};
+		67D736791B6CA29300F8242B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				67D7367A1B6CA29300F8242B /* Info.plist */,
+				67D7367B1B6CA29300F8242B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		67D736951B6CA29400F8242B /* TDFscorerTests */ = {
+			isa = PBXGroup;
+			children = (
+				67D736981B6CA29400F8242B /* TDFscorerTests.m */,
+				67D736961B6CA29400F8242B /* Supporting Files */,
+			);
+			path = TDFscorerTests;
+			sourceTree = "<group>";
+		};
+		67D736961B6CA29400F8242B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				67D736971B6CA29400F8242B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		67D736BF1B6CA48800F8242B /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				67D737071B6CADB300F8242B /* CoreDataUtil.h */,
+				67D737081B6CADB300F8242B /* CoreDataUtil.m */,
+				67D736C31B6CA50B00F8242B /* UIObjects.h */,
+				67D736C41B6CA50B00F8242B /* UIObjects.m */,
+				67D736C01B6CA4B100F8242B /* Constants.h */,
+				67D736C11B6CA4B100F8242B /* Constants.m */,
+				67D737721B72270F00F8242B /* GDriveUtils.h */,
+				67D737731B72270F00F8242B /* GDriveUtils.m */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		67D736C61B6CA54A00F8242B /* Core_data */ = {
+			isa = PBXGroup;
+			children = (
+				67E2F71F1BB46A0400E0EDDC /* PlayerInGroup.h */,
+				67E2F7201BB46A0400E0EDDC /* PlayerInGroup.m */,
+				67E2F71C1BB46A0400E0EDDC /* Group.h */,
+				67E2F71D1BB46A0400E0EDDC /* Group.m */,
+				67140E951BAD523B000743C3 /* Team.h */,
+				67140E961BAD523B000743C3 /* Team.m */,
+				67140E921BAD523A000743C3 /* PlayerInTourney.h */,
+				67140E931BAD523A000743C3 /* PlayerInTourney.m */,
+				67140E841BA21E11000743C3 /* Round.h */,
+				67140E851BA21E11000743C3 /* Round.m */,
+				67140E7B1BA20D65000743C3 /* Tournament.h */,
+				67140E7C1BA20D65000743C3 /* Tournament.m */,
+				6713CB991B7698D300971B80 /* CourseBase.h */,
+				6713CB9A1B7698D300971B80 /* CourseBase.m */,
+				6713CB961B7698D200971B80 /* Course.h */,
+				6713CB971B7698D200971B80 /* Course.m */,
+				67D736EE1B6CACDA00F8242B /* NSManagedObject+Serialization.h */,
+				67D736EF1B6CACDA00F8242B /* NSManagedObject+Serialization.m */,
+				67D736CD1B6CACAD00F8242B /* Competition.h */,
+				67D736CE1B6CACAD00F8242B /* Competition.m */,
+				67D736D11B6CACAD00F8242B /* Friend.h */,
+				67D736D21B6CACAD00F8242B /* Friend.m */,
+				67D736D51B6CACAD00F8242B /* Hole.h */,
+				67D736D61B6CACAD00F8242B /* Hole.m */,
+				67D736D91B6CACAD00F8242B /* Scorecard.h */,
+				67D736DA1B6CACAD00F8242B /* Scorecard.m */,
+				67D736DB1B6CACAD00F8242B /* Self.h */,
+				67D736DC1B6CACAD00F8242B /* Self.m */,
+			);
+			name = Core_data;
+			sourceTree = "<group>";
+		};
+		67D736F11B6CACE900F8242B /* UIViews */ = {
+			isa = PBXGroup;
+			children = (
+				67D737431B6CC41800F8242B /* ScoringUISlider.h */,
+				67D737441B6CC41800F8242B /* ScoringUISlider.m */,
+				67D737201B6CAF0E00F8242B /* StrokeUITextField.h */,
+				67D737211B6CAF0E00F8242B /* StrokeUITextField.m */,
+				67D737161B6CAE5B00F8242B /* GroupUIView.h */,
+				67D737171B6CAE5B00F8242B /* GroupUIView.m */,
+				67D736F21B6CAD1100F8242B /* ParUITextField.h */,
+				67D736F31B6CAD1100F8242B /* ParUITextField.m */,
+				67D736F41B6CAD1100F8242B /* PlayerUIView.h */,
+				67D736F51B6CAD1100F8242B /* PlayerUIView.m */,
+				67218B681B7BCC44009BBB0E /* NavOverrideViewController.h */,
+				67218B691B7BCC44009BBB0E /* NavOverrideViewController.m */,
+				67140E8E1BAB6BD8000743C3 /* ScrollContentView.h */,
+				67140E8F1BAB6BD8000743C3 /* ScrollContentView.m */,
+			);
+			name = UIViews;
+			sourceTree = "<group>";
+		};
+		67D7371C1B6CAE7700F8242B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				67D736FE1B6CAD7500F8242B /* AddTourneyViewController.h */,
+				67D736FF1B6CAD7500F8242B /* AddTourneyViewController.m */,
+				67D737491B6CC46D00F8242B /* AddFriendViewController.h */,
+				67D7374A1B6CC46D00F8242B /* AddFriendViewController.m */,
+				67D737131B6CAE2800F8242B /* AssembleRoundViewController.h */,
+				67D737141B6CAE2800F8242B /* AssembleRoundViewController.m */,
+				67D737191B6CAE7200F8242B /* CompViewController.h */,
+				67D7371A1B6CAE7200F8242B /* CompViewController.m */,
+				67D7371D1B6CAEAE00F8242B /* CourseViewController.h */,
+				67D7371E1B6CAEAE00F8242B /* CourseViewController.m */,
+				67D7374C1B6CC4AA00F8242B /* CoursesTableViewController.h */,
+				67D7374D1B6CC4AA00F8242B /* CoursesTableViewController.m */,
+				67D7374F1B6CC4B500F8242B /* CourseMapViewController.h */,
+				67D737501B6CC4B500F8242B /* CourseMapViewController.m */,
+				67D737461B6CC44700F8242B /* FriendTableViewController.h */,
+				67D737471B6CC44700F8242B /* FriendTableViewController.m */,
+				67131DF41BB697170082DD8B /* GDriveFilesViewController.h */,
+				67131DF51BB697170082DD8B /* GDriveFilesViewController.m */,
+				67D7372E1B6CC34A00F8242B /* LeaderboardTableViewController.h */,
+				67D7372F1B6CC34A00F8242B /* LeaderboardTableViewController.m */,
+				67D737281B6CC24900F8242B /* MainViewController.h */,
+				67D737291B6CC24900F8242B /* MainViewController.m */,
+				67D737311B6CC35900F8242B /* OpenTourneysTableViewController.h */,
+				67D737321B6CC35900F8242B /* OpenTourneysTableViewController.m */,
+				67D7372B1B6CC33300F8242B /* ProfileViewController.h */,
+				67D7372C1B6CC33300F8242B /* ProfileViewController.m */,
+				67D7373A1B6CC3C200F8242B /* RoundsInPlayViewController.h */,
+				67D7373B1B6CC3C200F8242B /* RoundsInPlayViewController.m */,
+				67D7370D1B6CAE0D00F8242B /* RoundViewController.h */,
+				67D7370E1B6CAE0D00F8242B /* RoundViewController.m */,
+				67D737341B6CC36500F8242B /* PlayerPopupViewController.h */,
+				67D737351B6CC36500F8242B /* PlayerPopupViewController.m */,
+				67D737101B6CAE1B00F8242B /* PlayerTeamSelectViewController.h */,
+				67D737111B6CAE1B00F8242B /* PlayerTeamSelectViewController.m */,
+				67D7373D1B6CC3EB00F8242B /* ScorecardViewController.h */,
+				67D7373E1B6CC3EB00F8242B /* ScorecardViewController.m */,
+				67D7373F1B6CC3EB00F8242B /* ScoringViewController.h */,
+				67D737401B6CC3EB00F8242B /* ScoringViewController.m */,
+				67138D231B727B2300AB6985 /* SpectatorSelViewController.h */,
+				67138D241B727B2300AB6985 /* SpectatorSelViewController.m */,
+				67D737011B6CAD9400F8242B /* TourneyInstanceViewController.h */,
+				67D737021B6CAD9400F8242B /* TourneyInstanceViewController.m */,
+				67D737371B6CC3A300F8242B /* TeamLeaderboardViewController.h */,
+				67D737381B6CC3A300F8242B /* TeamLeaderboardViewController.m */,
+				67D737041B6CADA300F8242B /* TeamViewController.h */,
+				67D737051B6CADA300F8242B /* TeamViewController.m */,
+				67D736C71B6CAC8300F8242B /* TourneyList.h */,
+				67D736C81B6CAC8300F8242B /* TourneyList.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		67E2F7221BB5AF9700E0EDDC /* ZipUtil */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ZipUtil;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67D736751B6CA29300F8242B /* TDFscorer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67D7369C1B6CA29400F8242B /* Build configuration list for PBXNativeTarget "TDFscorer" */;
+			buildPhases = (
+				67D736721B6CA29300F8242B /* Sources */,
+				67D736731B6CA29300F8242B /* Frameworks */,
+				67D736741B6CA29300F8242B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TDFscorer;
+			productName = TDFscorer;
+			productReference = 67D736761B6CA29300F8242B /* TDFscorer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		67D736911B6CA29400F8242B /* TDFscorerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67D7369F1B6CA29400F8242B /* Build configuration list for PBXNativeTarget "TDFscorerTests" */;
+			buildPhases = (
+				67D7368E1B6CA29400F8242B /* Sources */,
+				67D7368F1B6CA29400F8242B /* Frameworks */,
+				67D736901B6CA29400F8242B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67D736941B6CA29400F8242B /* PBXTargetDependency */,
+			);
+			name = TDFscorerTests;
+			productName = TDFscorerTests;
+			productReference = 67D736921B6CA29400F8242B /* TDFscorerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		67FF28571B962D9A0005BDBD /* TDFscorer Lite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67FF289A1B962D9A0005BDBD /* Build configuration list for PBXNativeTarget "TDFscorer Lite" */;
+			buildPhases = (
+				67FF28581B962D9A0005BDBD /* Sources */,
+				67FF288E1B962D9A0005BDBD /* Frameworks */,
+				67FF28951B962D9A0005BDBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TDFscorer Lite";
+			productName = TDFscorer;
+			productReference = 67FF289D1B962D9A0005BDBD /* TDFscorer Lite.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67D7366E1B6CA29300F8242B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "DJ Janse van Rensburg";
+				TargetAttributes = {
+					67D736751B6CA29300F8242B = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = KUQRGQ8T4R;
+					};
+					67D736911B6CA29400F8242B = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 67D736751B6CA29300F8242B;
+					};
+					67FF28571B962D9A0005BDBD = {
+						DevelopmentTeam = KUQRGQ8T4R;
+					};
+				};
+			};
+			buildConfigurationList = 67D736711B6CA29300F8242B /* Build configuration list for PBXProject "TDFscorer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 67D7366D1B6CA29300F8242B;
+			productRefGroup = 67D736771B6CA29300F8242B /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 672098EB1B8E1274006FE1A3 /* Products */;
+					ProjectRef = 672098EA1B8E1274006FE1A3 /* GTL.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				67D736751B6CA29300F8242B /* TDFscorer */,
+				67D736911B6CA29400F8242B /* TDFscorerTests */,
+				67FF28571B962D9A0005BDBD /* TDFscorer Lite */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		672098F21B8E1275006FE1A3 /* GTL.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GTL.framework;
+			remoteRef = 672098F11B8E1275006FE1A3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		672098F41B8E1275006FE1A3 /* libGTLTouchStaticLib.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libGTLTouchStaticLib.a;
+			remoteRef = 672098F31B8E1275006FE1A3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		672098F61B8E1275006FE1A3 /* GTLUnitTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = GTLUnitTests.xctest;
+			remoteRef = 672098F51B8E1275006FE1A3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		672098F81B8E1275006FE1A3 /* DevelopmentTestTool */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = DevelopmentTestTool;
+			remoteRef = 672098F71B8E1275006FE1A3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67D736741B6CA29300F8242B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67D736BB1B6CA34F00F8242B /* GTMOAuth2ViewTouch.xib in Resources */,
+				67D7368D1B6CA29300F8242B /* LaunchScreen.xib in Resources */,
+				67D7368A1B6CA29300F8242B /* Images.xcassets in Resources */,
+				67D737271B6CB02C00F8242B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67D736901B6CA29400F8242B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67FF28951B962D9A0005BDBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67FF28961B962D9A0005BDBD /* GTMOAuth2ViewTouch.xib in Resources */,
+				67FF28971B962D9A0005BDBD /* LaunchScreen.xib in Resources */,
+				67FF28981B962D9A0005BDBD /* Images.xcassets in Resources */,
+				67FF28991B962D9A0005BDBD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67D736721B6CA29300F8242B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67140E971BAD523B000743C3 /* Team.m in Sources */,
+				67D736BE1B6CA36900F8242B /* GTLDrive_Sources.m in Sources */,
+				67D737301B6CC34A00F8242B /* LeaderboardTableViewController.m in Sources */,
+				67D737411B6CC3EB00F8242B /* ScorecardViewController.m in Sources */,
+				67D7371B1B6CAE7200F8242B /* CompViewController.m in Sources */,
+				67138D251B727B2300AB6985 /* SpectatorSelViewController.m in Sources */,
+				67D7371F1B6CAEAE00F8242B /* CourseViewController.m in Sources */,
+				67D736E51B6CACAD00F8242B /* Friend.m in Sources */,
+				67D7372D1B6CC33300F8242B /* ProfileViewController.m in Sources */,
+				67140E861BA21E11000743C3 /* Round.m in Sources */,
+				67D737091B6CADB300F8242B /* CoreDataUtil.m in Sources */,
+				67D736F01B6CACDA00F8242B /* NSManagedObject+Serialization.m in Sources */,
+				67D737741B72270F00F8242B /* GDriveUtils.m in Sources */,
+				67D737121B6CAE1B00F8242B /* PlayerTeamSelectViewController.m in Sources */,
+				67140E901BAB6BD8000743C3 /* ScrollContentView.m in Sources */,
+				67D736CB1B6CAC8300F8242B /* TourneyList.m in Sources */,
+				67D737331B6CC35900F8242B /* OpenTourneysTableViewController.m in Sources */,
+				67140E941BAD523A000743C3 /* PlayerInTourney.m in Sources */,
+				67D7374E1B6CC4AA00F8242B /* CoursesTableViewController.m in Sources */,
+				67D7370F1B6CAE0D00F8242B /* RoundViewController.m in Sources */,
+				67D736F61B6CAD1100F8242B /* ParUITextField.m in Sources */,
+				67D737181B6CAE5B00F8242B /* GroupUIView.m in Sources */,
+				67D737391B6CC3A300F8242B /* TeamLeaderboardViewController.m in Sources */,
+				67D736821B6CA29300F8242B /* TDFscorer.xcdatamodeld in Sources */,
+				67D737151B6CAE2800F8242B /* AssembleRoundViewController.m in Sources */,
+				67D736C51B6CA50B00F8242B /* UIObjects.m in Sources */,
+				67D736E31B6CACAD00F8242B /* Competition.m in Sources */,
+				67D737511B6CC4B500F8242B /* CourseMapViewController.m in Sources */,
+				67D737031B6CAD9400F8242B /* TourneyInstanceViewController.m in Sources */,
+				67D736EA1B6CACAD00F8242B /* Self.m in Sources */,
+				67D7373C1B6CC3C200F8242B /* RoundsInPlayViewController.m in Sources */,
+				67D737421B6CC3EB00F8242B /* ScoringViewController.m in Sources */,
+				67D7367C1B6CA29300F8242B /* main.m in Sources */,
+				67D737061B6CADA300F8242B /* TeamViewController.m in Sources */,
+				67D7370C1B6CADE700F8242B /* AppDelegate.m in Sources */,
+				67131DF61BB697170082DD8B /* GDriveFilesViewController.m in Sources */,
+				67D737361B6CC36500F8242B /* PlayerPopupViewController.m in Sources */,
+				6713CB981B7698D200971B80 /* Course.m in Sources */,
+				67D737221B6CAF0F00F8242B /* StrokeUITextField.m in Sources */,
+				67D737001B6CAD7500F8242B /* AddTourneyViewController.m in Sources */,
+				67D736E91B6CACAD00F8242B /* Scorecard.m in Sources */,
+				67D737481B6CC44700F8242B /* FriendTableViewController.m in Sources */,
+				67D7372A1B6CC24900F8242B /* MainViewController.m in Sources */,
+				67D737451B6CC41800F8242B /* ScoringUISlider.m in Sources */,
+				67E2F71E1BB46A0400E0EDDC /* Group.m in Sources */,
+				67140E7D1BA20D65000743C3 /* Tournament.m in Sources */,
+				6713CB9B1B7698D300971B80 /* CourseBase.m in Sources */,
+				67218B6A1B7BCC44009BBB0E /* NavOverrideViewController.m in Sources */,
+				67D736C21B6CA4B100F8242B /* Constants.m in Sources */,
+				67D736E71B6CACAD00F8242B /* Hole.m in Sources */,
+				67D736F71B6CAD1100F8242B /* PlayerUIView.m in Sources */,
+				67D7374B1B6CC46D00F8242B /* AddFriendViewController.m in Sources */,
+				67E2F7211BB46A0400E0EDDC /* PlayerInGroup.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67D7368E1B6CA29400F8242B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67D736991B6CA29400F8242B /* TDFscorerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67FF28581B962D9A0005BDBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67131DF71BB6BA940082DD8B /* GDriveFilesViewController.m in Sources */,
+				67140E991BAD7F32000743C3 /* PlayerInTourney.m in Sources */,
+				67140E981BAD7F1A000743C3 /* ScrollContentView.m in Sources */,
+				67140E891BA5EE3E000743C3 /* Round.m in Sources */,
+				67140E881BA5EB41000743C3 /* Tournament.m in Sources */,
+				67FF285A1B962D9A0005BDBD /* GTLDrive_Sources.m in Sources */,
+				67FF285B1B962D9A0005BDBD /* LeaderboardTableViewController.m in Sources */,
+				67FF285D1B962D9A0005BDBD /* ScorecardViewController.m in Sources */,
+				67FF285E1B962D9A0005BDBD /* CompViewController.m in Sources */,
+				67FF28601B962D9A0005BDBD /* SpectatorSelViewController.m in Sources */,
+				67FF28611B962D9A0005BDBD /* CourseViewController.m in Sources */,
+				67FF28621B962D9A0005BDBD /* Friend.m in Sources */,
+				67FF28631B962D9A0005BDBD /* ProfileViewController.m in Sources */,
+				67FF28641B962D9A0005BDBD /* CoreDataUtil.m in Sources */,
+				67FF28661B962D9A0005BDBD /* NSManagedObject+Serialization.m in Sources */,
+				67FF28681B962D9A0005BDBD /* GDriveUtils.m in Sources */,
+				67FF28691B962D9A0005BDBD /* PlayerTeamSelectViewController.m in Sources */,
+				67FF286A1B962D9A0005BDBD /* TourneyList.m in Sources */,
+				67FF286C1B962D9A0005BDBD /* OpenTourneysTableViewController.m in Sources */,
+				67FF286D1B962D9A0005BDBD /* CoursesTableViewController.m in Sources */,
+				67FF286E1B962D9A0005BDBD /* RoundViewController.m in Sources */,
+				67FF286F1B962D9A0005BDBD /* ParUITextField.m in Sources */,
+				67FF28701B962D9A0005BDBD /* GroupUIView.m in Sources */,
+				67FF28711B962D9A0005BDBD /* TeamLeaderboardViewController.m in Sources */,
+				67FF28721B962D9A0005BDBD /* TDFscorer.xcdatamodeld in Sources */,
+				67FF28731B962D9A0005BDBD /* AssembleRoundViewController.m in Sources */,
+				67FF28741B962D9A0005BDBD /* UIObjects.m in Sources */,
+				67FF28751B962D9A0005BDBD /* Competition.m in Sources */,
+				67FF28771B962D9A0005BDBD /* CourseMapViewController.m in Sources */,
+				67FF28781B962D9A0005BDBD /* TourneyInstanceViewController.m in Sources */,
+				67FF28791B962D9A0005BDBD /* Self.m in Sources */,
+				67FF287A1B962D9A0005BDBD /* RoundsInPlayViewController.m in Sources */,
+				67FF287B1B962D9A0005BDBD /* ScoringViewController.m in Sources */,
+				67FF287C1B962D9A0005BDBD /* main.m in Sources */,
+				67FF287D1B962D9A0005BDBD /* TeamViewController.m in Sources */,
+				67FF287E1B962D9A0005BDBD /* AppDelegate.m in Sources */,
+				67FF287F1B962D9A0005BDBD /* PlayerPopupViewController.m in Sources */,
+				67FF28801B962D9A0005BDBD /* Course.m in Sources */,
+				67FF28811B962D9A0005BDBD /* StrokeUITextField.m in Sources */,
+				67FF28821B962D9A0005BDBD /* AddTourneyViewController.m in Sources */,
+				67FF28831B962D9A0005BDBD /* Scorecard.m in Sources */,
+				67FF28851B962D9A0005BDBD /* FriendTableViewController.m in Sources */,
+				67FF28861B962D9A0005BDBD /* MainViewController.m in Sources */,
+				67FF28871B962D9A0005BDBD /* ScoringUISlider.m in Sources */,
+				67FF28881B962D9A0005BDBD /* CourseBase.m in Sources */,
+				67FF28891B962D9A0005BDBD /* NavOverrideViewController.m in Sources */,
+				67FF288A1B962D9A0005BDBD /* Constants.m in Sources */,
+				67FF288B1B962D9A0005BDBD /* Hole.m in Sources */,
+				67FF288C1B962D9A0005BDBD /* PlayerUIView.m in Sources */,
+				67FF288D1B962D9A0005BDBD /* AddFriendViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		67D736941B6CA29400F8242B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67D736751B6CA29300F8242B /* TDFscorer */;
+			targetProxy = 67D736931B6CA29400F8242B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		67D7368B1B6CA29300F8242B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67D7368C1B6CA29300F8242B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		67D737251B6CB02C00F8242B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67D737261B6CB02C00F8242B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		67D7369A1B6CA29400F8242B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+			};
+			name = Debug;
+		};
+		67D7369B1B6CA29400F8242B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		67D7369D1B6CA29400F8242B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = TDFscorer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "/Users/djvanrensburg/google-api-objectivec-client-read-only/Source/**";
+			};
+			name = Debug;
+		};
+		67D7369E1B6CA29400F8242B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = TDFscorer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "/Users/djvanrensburg/google-api-objectivec-client-read-only/Source/**";
+			};
+			name = Release;
+		};
+		67D736A01B6CA29400F8242B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TDFscorerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TDFscorer.app/TDFscorer";
+			};
+			name = Debug;
+		};
+		67D736A11B6CA29400F8242B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TDFscorerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TDFscorer.app/TDFscorer";
+			};
+			name = Release;
+		};
+		67FF289B1B962D9A0005BDBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon_lite;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					LITEVERSION,
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/TDFscorer Lite-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "TDFscorer Lite";
+				SKIP_INSTALL = NO;
+				USER_HEADER_SEARCH_PATHS = "/Users/djvanrensburg/google-api-objectivec-client-read-only/Source/**";
+			};
+			name = Debug;
+		};
+		67FF289C1B962D9A0005BDBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon_lite;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = LITEVERSION;
+				INFOPLIST_FILE = "$(SRCROOT)/TDFscorer Lite-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				"OTHER_CPLUSPLUSFLAGS[arch=*]" = "";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "TDFscorer Lite";
+				SKIP_INSTALL = NO;
+				USER_HEADER_SEARCH_PATHS = "/Users/djvanrensburg/google-api-objectivec-client-read-only/Source/**";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67D736711B6CA29300F8242B /* Build configuration list for PBXProject "TDFscorer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67D7369A1B6CA29400F8242B /* Debug */,
+				67D7369B1B6CA29400F8242B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67D7369C1B6CA29400F8242B /* Build configuration list for PBXNativeTarget "TDFscorer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67D7369D1B6CA29400F8242B /* Debug */,
+				67D7369E1B6CA29400F8242B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67D7369F1B6CA29400F8242B /* Build configuration list for PBXNativeTarget "TDFscorerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67D736A01B6CA29400F8242B /* Debug */,
+				67D736A11B6CA29400F8242B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67FF289A1B962D9A0005BDBD /* Build configuration list for PBXNativeTarget "TDFscorer Lite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67FF289B1B962D9A0005BDBD /* Debug */,
+				67FF289C1B962D9A0005BDBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		67D736801B6CA29300F8242B /* TDFscorer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				67E2F70E1BB4683E00E0EDDC /* TDFscorer 10.xcdatamodel */,
+				67140E911BAD51EF000743C3 /* TDFscorer 9.xcdatamodel */,
+				67140E7A1BA20ACC000743C3 /* TDFscorer 8.xcdatamodel */,
+				672098FB1B931DD5006FE1A3 /* TDFscorer 7.xcdatamodel */,
+				672098FA1B918E4F006FE1A3 /* TDFscorer 6.xcdatamodel */,
+				6713CB951B7698A800971B80 /* TDFscorer 5.xcdatamodel */,
+				67D7376E1B7225DA00F8242B /* TDFscorer 4.xcdatamodel */,
+				67D7376A1B72154E00F8242B /* TDFscorer 3.xcdatamodel */,
+				67D737541B715C0D00F8242B /* TDFscorer 2.xcdatamodel */,
+				67D736811B6CA29300F8242B /* TDFscorer.xcdatamodel */,
+			);
+			currentVersion = 67E2F70E1BB4683E00E0EDDC /* TDFscorer 10.xcdatamodel */;
+			path = TDFscorer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 67D7366E1B6CA29300F8242B /* Project object */;
+}
